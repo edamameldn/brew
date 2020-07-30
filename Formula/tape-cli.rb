@@ -3,8 +3,9 @@ require "language/node"
 class TapeCli < Formula
   desc "CLI for mobile devs - share screenshots, recordings as video or GIFs"
   homepage "https://tape.sh/"
-  url "https://registry.npmjs.org/tape-cli/-/tape-cli-0.12.1.tgz"
-  sha256 "be24f298fb7b5e719e368aae7ecd0c6757bf12f99707f6e1cbd34fe68c6c12a9"
+  url "https://registry.npmjs.org/tape-cli/-/tape-cli-0.12.2.tgz"
+  version "0.12.2"
+  sha256 "a4c30e1fb082c0a1801f8f43e1322da5daed4b94298fef2bcc3a1245e499f03e"
   license "MIT"
 
   depends_on "node"
