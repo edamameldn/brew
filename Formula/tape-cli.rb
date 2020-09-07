@@ -8,12 +8,6 @@ class TapeCli < Formula
   sha256 "dcdd452fb5c78f8882b406a75873a8e99b096beedf2d1710fad8309b69dbeecd"
   license "MIT"
 
-  devel do
-    url "https://registry.npmjs.org/tape-cli/-/tape-cli-0.13.1-0.tgz"
-    version "0.13.1-0"
-    sha256 "eafd78e7693900fbdd3ff70eb2110042ccbc2ade0fe45e341328aff36a899293"
-  end
-
   depends_on "node"
 
   def install
